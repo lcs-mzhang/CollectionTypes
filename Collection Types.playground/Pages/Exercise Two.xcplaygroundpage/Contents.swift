@@ -76,3 +76,8 @@ for ratings in restaurantRatings
     }
 }
 
+
+print("\(stellar) stellar reviews. \(satisfactory) satisfactory reviews. \(fair) fair reviews. \(bad) bad reviews. \(veryBad) very bad reviews.")
+print("\(Double(stellar)/Double(restaurantRatings.count)*100)% of people rated the restaurant to be stellar.")
+print("\(Double(veryBad)/Double(restaurantRatings.count)*100)% of people rated the restaurant to be very bad.")
+

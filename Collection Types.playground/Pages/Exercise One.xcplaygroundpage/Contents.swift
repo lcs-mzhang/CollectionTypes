@@ -21,7 +21,8 @@ print("\(grades.count)")
 /*:
  3. Print a list of each array index and the associated value.
  */
-for (index, value) in grades.enumerated() {
+for (index, value) in grades.enumerated()
+{
     print("At \(index) the value is \(value)")
 }
 
@@ -40,6 +41,16 @@ for grade in grades
 }
 
 print("Your highest grade is \(highestGrade)")
+
+
+
+
+var addedGrades : Double = 0
+for grades in grades
+{
+    addedGrades += grades
+}
+addedGrades/Double(grades.count)
 //: [Next](@next)
 
 
